@@ -1,0 +1,22 @@
+.logo{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.top-left{
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.top-right{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
