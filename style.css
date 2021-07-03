@@ -28,7 +28,7 @@ body{
     width: 100%;
 }
 
-input{
+input[type="text"]{
     border: 1px solid #dfe1e5;
     height: 10px;
     width: 544px;
@@ -42,9 +42,26 @@ input{
     opacity: 0.5;
 }
 
+input[type="button"]{
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(242, 242, 242);
+    border-radius: 4px;
+    border-style: solid;
+    height: 36px;
+    min-width: 54px;
+    margin: 10px;
+    color: #5f6368;
+}
+
+input[type="button"]:hover{
+    border-color: lightgray;
+    box-shadow: 0 1px 6px 0 lightgray;
+    color: black;
+}
+
 input:hover{
     border-color: white;
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28)
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 
 input:focus{
